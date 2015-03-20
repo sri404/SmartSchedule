@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Landing screen string resources -->
+    <string name="textverification">Verification Page</string>
+    <string name="textthanks">Thank you for downloading the application!</string>
+    <string name="textselectuser">Please select a user type</string>
+    
+
+    <!-- Login screen string resources -->
+
+    <string name="app_name">SmartSchedule</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Username/Email</string>
+    <string name="password">Password</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Don\'t have an account? Sign Up</string>
+    <string name="facebooksignin">Sign In With Facebook</string>
+    <string name="googleplussignin">Sign In With Google+</string>
+
+    <!-- Signup screen string resources -->
+    
+    <string name="fname">First Name</string>
+    <string name="lname">last Name</string>
+    <string name="contactNumber">Contact Number</string>
+    <string name="email">Email</string>
+    <string name="retype_email">Re-Type Email</string>
+    <string name="retype_password">Re-Type Password</string>
+    <string name="ruser">Regular User</string>
+    <string name="iuser">Incharge User</string>
+    <string name="uuuser">Ultimate Upline User</string>
+    <string name="signuptext">Sign Up</string>
+    <string name="validfname">*Please Enter First Name</string>
+    <string name="validlname">*Please Enter Last Name</string>
+    <string name="validcontactNumber">*Please Enter Contact Number</string>
+    <string name="validemail">*Please Enter Email</string>
+    <string name="validpassword">*Please Enter Valid Password</string>
+    <string name="validrepassword">*Password missmatch</string>
+
+    <!-- Forgot password screen string resources -->
+    
+    <string name="textforgotpassword">Forgot password</string>
+    <string name="textenteremail">Forgot your password? No problem just enter your email id and we will send you a new one</string>
+    <string name="textclickhere">If you haven\'t received the password then</string>
+
+    <!-- Home screen string resources -->
+    <string name="checkin">Check In</string>
+    <string name="checkout">Check Out</string>
+    <string name="handover">Handover</string>
+    <string name="myschedule">My Schedule</string>
+    <string name="session">Session with incharge </string>
+    <string name="group">Group</string>
+    <string name="mycontrol">My Control Panel</string>
+
+</resources>

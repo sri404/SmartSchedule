@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp" >
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" >
+
+        <include
+            android:id="@+id/header_with_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/simple_header" >
+        </include>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_layout" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <EditText
+                android:id="@+id/editTextfname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:hint="@string/fname" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textViewfname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/editTextfname"
+                android:visibility="gone"
+                android:text="@string/validfname" />
+
+            <EditText
+                android:id="@+id/editTextlname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textViewfname"
+                android:hint="@string/lname" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textViewlname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/editTextlname"
+                 android:visibility="gone"
+                android:text="@string/validlname" />
+
+            <EditText
+                android:id="@+id/editTextContact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textViewlname"
+                android:hint="@string/contactNumber" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textViewContact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/editTextContact"
+                 android:visibility="gone"
+                android:text="@string/validcontactNumber" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textViewContact"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/editTextEmail"
+                 android:visibility="gone"
+                android:text="@string/validemail" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textViewEmail"
+                android:hint="@string/password"
+                android:inputType="textPassword" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textViewPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/editTextPassword"
+                 android:visibility="gone"
+                android:text="@string/validpassword" />
+
+            <EditText
+                android:id="@+id/editTextRePassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textViewPassword"
+                android:hint="@string/retype_password"
+                android:inputType="textPassword" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textViewRePassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/editTextRePassword"
+                 android:visibility="gone"
+                android:text="@string/validrepassword" />
+
+            <RadioGroup
+                android:id="@+id/radioSex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewRePassword" >
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/ruser" />
+
+                <RadioButton
+                    android:id="@+id/radioMa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/uuuser" />
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iuser" />
+            </RadioGroup>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
